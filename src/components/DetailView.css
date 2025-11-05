@@ -1,0 +1,129 @@
+/* 🌸 Page Container */
+.detail-view {
+    background-color: #fff7f3;
+    padding: 30px 20px;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  /* 🔙 Back Link */
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ff8ba7;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #ff6f91;
+  }
+  
+  /* 🍝 Recipe Container */
+  .detail-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(255, 182, 185, 0.3);
+    text-align: left;
+  }
+  
+  /* 🖼️ Recipe Image */
+  .detail-image {
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0 25px 0;
+    object-fit: cover;
+  }
+  
+  /* 🧾 Info Section */
+  .info {
+    margin-bottom: 20px;
+    background-color: #fff8f8;
+    border: 1px solid #ffe0e6;
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  
+  .info p {
+    margin: 6px 0;
+    color: #555;
+  }
+  
+  /* 🩷 Summary Section */
+  .summary {
+    background-color: #fff8f8;
+    border-left: 5px solid #ffb6b9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  /* 🧂 Ingredients */
+  .ingredients {
+    margin-top: 25px;
+  }
+  
+  .ingredients h3 {
+    color: #ff6f91;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients ul {
+    padding-left: 25px;
+    list-style: disc;
+    color: #555;
+  }
+  
+  .ingredients li {
+    margin-bottom: 6px;
+  }
+  
+  /* 👩🏻‍🍳 Instructions */
+  .instructions {
+    margin-top: 25px;
+  }
+  
+  .instructions h3 {
+    color: #ff6f91;
+    margin-bottom: 10px;
+  }
+  
+  .instructions p {
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* 🔗 External Recipe Button */
+  .recipe-link {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #ffb6b9;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .recipe-link:hover {
+    background-color: #ff9aa2;
+  }
+  
+  /* ⚠️ Error + Loading */
+  .error,
+  .loading {
+    text-align: center;
+    margin-top: 50px;
+    color: #cc444b;
+    font-weight: 600;
+  }
+  
